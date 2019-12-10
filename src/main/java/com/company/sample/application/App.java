@@ -1,4 +1,5 @@
 package com.company.sample.application;
+import java.util.*;
 
 import com.amazonaws.skysailprivatebeta.agent.Profiler;
 import com.amazonaws.skysailprivatebeta.com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
@@ -12,6 +13,7 @@ public class App {
 
         while(true){
             app.load();
+            Thread.sleep(4000);
             System.out.println("load finish");
             app.load1();
             System.out.println("load1 finish");
