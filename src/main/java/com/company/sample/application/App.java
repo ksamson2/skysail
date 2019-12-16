@@ -20,6 +20,15 @@ public class App {
             app.load2();
             System.out.println("load2 finish");
         }
+
+        for(int i = 0; i < Double.POSITIVE_INFINITY; i++){
+            console.log("hello");
+            for(int j = 0; j < Double.POSITIVE_INFINITY; j++){
+                for(int k = 0; k < Double.POSITIVE_INFINITY; k++){
+                    console.log(" ");
+                }
+            }
+        }
     }
 
     private void load() {
