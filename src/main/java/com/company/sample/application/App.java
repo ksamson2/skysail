@@ -1,4 +1,5 @@
 package com.company.sample.application;
+import java.util.*;
 
 import com.amazonaws.skysailprivatebeta.agent.Profiler;
 import com.amazonaws.skysailprivatebeta.com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
@@ -12,11 +13,21 @@ public class App {
 
         while(true){
             app.load();
+            Thread.sleep(4000);
             System.out.println("load finish");
             app.load1();
             System.out.println("load1 finish");
             app.load2();
             System.out.println("load2 finish");
+        }
+
+        for(int i = 0; i < Double.POSITIVE_INFINITY; i++){
+            console.log("hello");
+            for(int j = 0; j < Double.POSITIVE_INFINITY; j++){
+                for(int k = 0; k < Double.POSITIVE_INFINITY; k++){
+                    console.log(" ");
+                }
+            }
         }
     }
 
